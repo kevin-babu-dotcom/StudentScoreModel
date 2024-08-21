@@ -21,4 +21,4 @@ def predict():
     except ValueError:
         return render_template('index.html',predicition_text= "Please enter a valid number.")
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(debug=True,host='0.0.0.0')

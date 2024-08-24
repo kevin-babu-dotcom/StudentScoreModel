@@ -11,10 +11,7 @@ Welcome to the **Student Performance Prediction Model** repository! This project
 - [Model Overview](#model-overview)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
 
 ## Introduction
 
@@ -67,7 +64,6 @@ The model was built using the following steps:
 2. **Data Preprocessing**: The data was cleaned and prepared for modeling.
 3. **Modeling**: A linear regression model was trained to predict student scores.
 4. **Deployment**: The model was deployed as a web application using Flask.
-5. **Evaluation**: The model was evaluated using metrics such as Mean Absolute Error (MAE) and R² score.
 
 ### Key Features
 

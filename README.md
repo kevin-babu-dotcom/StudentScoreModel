@@ -11,6 +11,7 @@ Welcome to the **Student Performance Prediction Model** repository! This project
 - [Model Overview](#model-overview)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Results](#Results)
 
 
 ## Introduction
@@ -35,24 +36,7 @@ The dataset used in this project includes the following columns:
 | 2.7           | 25     |
 | 7.7           | 85     |
 | 5.9           | 62     |
-| 4.5           | 41     |
-| 3.3           | 42     |
-| 1.1           | 17     |
-| 8.9           | 95     |
-| 2.5           | 30     |
-| 1.9           | 24     |
-| 6.1           | 67     |
-| 7.4           | 69     |
-| 2.7           | 30     |
-| 4.8           | 54     |
-| 3.8           | 35     |
-| 6.9           | 76     |
-| 7.8           | 86     |
-| 4.2           | 49     |
-| 9.5           | 90     |
-| 5.8           | 63     |
-| 2.3           | 23     |
-| 4.7           | 50     |
+
 
 > **Note**: This dataset is sourced from [Kaggle's Student Study Hours Dataset](https://www.kaggle.com/datasets/himanshunakrani/student-study-hours).
 
@@ -101,4 +85,26 @@ To use the model, follow these steps:
 2. Access the Web Application: Open your web browser and go to http://127.0.0.1:5000/.
 
 3. Input Study Hours: On the web page, enter the number of study hours in the input field and submit the form to get the predicted score.
+
+## Results
+
+Here is a plot showing the relationship between hours studied and scores
+The script generates a scatter plot showing the correlation between the hours studied and the grades. The regression line is also plotted, showing the linear relationship established by the model:
+
+         plt.figure(figsize=(8, 6))
+         plt.scatter(X, y, color='blue', label='Actual Data')
+         plt.plot(X_test, model.predict(X_test), color='red', label='Regression Line')
+         plt.title('Hours Studied vs. Scores')
+         plt.xlabel('Hours Studied')
+         plt.ylabel('Scores')
+         plt.legend()
+         plt.show()
+
+
+
+
+<p align="left">
+  <img src="plot.png" alt="Hours Studied vs. Scores" style="width:600px; height: auto; border-radius: 50px;"/>
+</p>
+
 

@@ -2,7 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Welcome to the **Student Performance Prediction Model** repository! This project is a machine learning model that predicts student scores based on the number of hours studied. It was created as part of my application for the FOSS club at [Your College Name].
+Welcome to the **Student Performance Prediction Model** repository! This project is a machine learning model that predicts student scores based on the number of hours studied. 
+
 
 ## Table of Contents
 
